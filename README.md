@@ -1,11 +1,11 @@
-# 📊 Usage-Based Clustering & Monetization
+# Usage-Based Clustering & Monetization
 
 This project analyzes mobile phone usage data to **segment users by engagement level** and **assign pricing tiers** using **K-Means clustering**.
 The output supports **product strategy, monetization, and dashboarding**.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 **Goal:**
 Identify distinct user usage patterns (Light, Medium, Heavy users) based on mobile behavior and translate these segments into **pricing tiers and revenue forecasts**.
@@ -21,7 +21,7 @@ Identify distinct user usage patterns (Light, Medium, Heavy users) based on mobi
 
 ---
 
-## 🧠 Business Use Case
+## Business Use Case
 
 This project simulates how a product or company could:
 
@@ -32,7 +32,7 @@ This project simulates how a product or company could:
 
 ---
 
-## 📂 Data Source
+## Data Source
 
 * **Dataset:** Mobile Phone Usage Dataset (MPUD)
 * **Granularity:** Event-level sensor data
@@ -47,7 +47,7 @@ This project simulates how a product or company could:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Python**
 * **Pandas / NumPy**
@@ -58,7 +58,7 @@ This project simulates how a product or company could:
 
 ---
 
-## 📊 Feature Engineering
+## Feature Engineering
 
 ### Daily Metrics (Per User)
 
@@ -77,7 +77,7 @@ Computed as **per-user daily averages**:
 
 ---
 
-## 🧹 Data Cleaning & Outlier Handling
+## Data Cleaning & Outlier Handling
 
 * Removed missing critical fields
 * Filtered only relevant sensors
@@ -90,7 +90,7 @@ This improves clustering stability and interpretability.
 
 ---
 
-## 🤖 Clustering Approach
+## Clustering Approach
 
 ### Feature Scaling
 
@@ -122,7 +122,7 @@ usage_score = mean(scaled_screen_time, scaled_sessions)
 
 ---
 
-## 💰 Pricing Strategy
+## Pricing Strategy
 
 | Tier   | Monthly Price (USD) |
 | ------ | ------------------- |
@@ -138,7 +138,7 @@ Each user is automatically assigned:
 
 ---
 
-## 📈 Revenue Forecast
+## Revenue Forecast
 
 Revenue is estimated by summing tier prices across users:
 
@@ -148,7 +148,7 @@ Revenue is estimated by summing tier prices across users:
 
 ---
 
-## 📉 Included Visuals
+## Included Visuals
 
 * Distribution of screen time and sessions
 * Cluster comparison bar charts
@@ -169,7 +169,7 @@ A practical example of **data science driving product decisions**.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 
